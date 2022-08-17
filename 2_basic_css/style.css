@@ -1,0 +1,125 @@
+main {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 20px 0 0;
+  text-align: center;
+  user-select: none;
+  font-family: system-ui;
+}
+
+.main_title {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: #005e2c;
+}
+
+.text_under_main_title {
+  font-size: 20px;
+  margin: 30px;
+  font-family: system-ui;
+  font-weight: 500;
+  color: #005e2c;
+}
+
+.subscribtions {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+}
+
+.subscribtion {
+  width: 330px;
+  background-color: #f7fdfe;
+  margin: 20px;
+  padding: 0 15px 0;
+  border: 2px solid #e9f1f9;
+  border-radius: 10px;
+}
+
+.subscribtion_title {
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.subscribtion_green {
+  color: #578e05;
+}
+
+.subscribtion_blue {
+  color: #1c51fe;
+}
+
+.subscribtion_orange {
+  color: #fda401;
+}
+
+.price_block {
+  background-color: #fff;
+  border: 2px solid #e9f1f9;
+  border-radius: 10px;
+  padding: 10px 30px 0px;
+}
+
+.price {
+  font-family: system-ui;
+  font-weight: 900;
+  font-size: 43px;
+  margin: 0 0 10px;
+}
+
+.trial_period {
+  margin: 3px auto 13.6px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: system-ui;
+}
+
+.btn {
+  font-family: cursive;
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.compare_btn {
+  font-family: system-ui;
+  background-color: #eaf2fa;
+  color: #003e17;
+  font-weight: 500;
+  font-size: 14px;
+  width: 250px;
+  margin: 20px auto;
+}
+
+.btn_green {
+  background-color: #578d05;
+  margin-bottom: 35px;
+}
+
+.btn_blue {
+  background-color: #1c51fe;
+}
+
+.btn_orange {
+  background-color: #fda401;
+}
+
+.description {  
+  font-family: system-ui;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 30px 10px 0;
+}
+
+.plan {
+  font-family: system-ui;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+}
