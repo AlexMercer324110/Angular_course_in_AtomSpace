@@ -11,8 +11,9 @@ for (let i = 0; i < 16; i++) {
 }
 
 const paint = ($event) => {
-	if (!$event.srcElement.classList.contains('yellow') && !$event.srcElement.classList.contains('blue')){
-		$event.srcElement.classList.add(classes[classesIndex++ % classes.length])
+	const element = $event.target
+	if (!element.classList.contains('yellow') && !element.classList.contains('blue')){
+		element.classList.add(classes[classesIndex++ % classes.length])
 	}
 }
 
