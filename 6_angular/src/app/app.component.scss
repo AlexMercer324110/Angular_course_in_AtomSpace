@@ -1,0 +1,14 @@
+.beer-card {
+  display: inline-block;
+  max-width: 20%;
+  margin: 0 1rem 1rem;
+  background: #eee;
+  border: 2px solid #2b2b2b;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  text-align: center;
+
+  h1 {
+    margin: .5rem;
+  }
+}

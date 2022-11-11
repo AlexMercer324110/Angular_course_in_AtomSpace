@@ -1,0 +1,6 @@
+<div class="beer-card" *ngFor="let beer of beers">
+  <h1>{{ beer.id }}. {{ beer.name }}</h1>
+  <img [src]="beer.image_url" alt="Some beer" width="100">
+  <p>{{ beer.description }}</p>
+  <p>Alcohol by Volume: {{ beer.abv }}</p>
+</div>
