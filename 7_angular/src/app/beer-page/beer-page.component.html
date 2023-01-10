@@ -1,0 +1,12 @@
+<div class="beer-page" *ngIf="beer; else loading">
+  <img [src]="beer.image_url" height="400">
+  <div class="details">
+    <h1>{{ beer.name }}</h1>
+    <p class="description">{{ beer.description }}</p>
+    <small class="small-description">{{ beer.first_brewed }}</small><br>
+    <small class="small-description">abv: {{ beer.abv }}</small>
+  </div>
+</div>
+<ng-template #loading>
+  <h2 style="position: absolute; width: 100%; text-align: center">loading...</h2>
+</ng-template>

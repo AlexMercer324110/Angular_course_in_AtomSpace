@@ -1,0 +1,7 @@
+<div class="beer" *ngFor="let beer of beers">
+  <div class="title-and-img" routerLink="{{ beer.id }}">
+    <h2>{{ beer.name }}</h2>
+    <img [src]="beer.image_url" height="70">
+  </div>
+  <p>{{ beer.tagline }}</p>
+</div>

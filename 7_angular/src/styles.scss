@@ -1,0 +1,52 @@
+.beer {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  overflow-y: auto;
+
+  .title-and-img {
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    h2 {
+      margin: auto;
+    }
+
+    img {
+      margin: auto 10px;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.beer-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  max-width: 900px;
+  width: 100%;
+
+  img {
+    margin: 1rem 2rem 0 1rem;
+  }
+
+  .details {
+    p {
+      font-size: 22px;
+    }
+
+    .small-description {
+      float: right;
+      color: #aaa;
+      font-size: 16px;
+    }
+  }
+}
